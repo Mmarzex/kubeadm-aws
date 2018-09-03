@@ -77,3 +77,11 @@ variable "external-dns-enabled" {
   default = "1"
   description = "Whether or not to enable external-dns. (1 for enabled, 0 for disabled)"
 }
+
+variable "master-spot-price" {
+  default = "0.02"
+}
+
+variable "worker-spot-price" {
+  default = "0.02"
+}
